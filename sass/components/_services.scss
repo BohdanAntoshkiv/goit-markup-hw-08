@@ -1,6 +1,10 @@
 .servises {
     display: block;
     padding-bottom: 94px;
+
+    @media screen and (max-width: 1199.5px) {
+        display: none;
+    }
 }
 .servises__header {
     font-weight: 700;
