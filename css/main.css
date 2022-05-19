@@ -547,29 +547,59 @@ img {
 }
 
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-color1);
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .clients__header {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .clients__header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 }
 
 .clients__list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin: -15px;
 }
 
-.clients__item + .clients__item {
-  margin-left: 30px;
+.clients__item {
+  width: calc((100% - 60px) / 2);
+  margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .clients__item {
+    width: calc((100% - 90px) / 3);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__item {
+    width: calc((100% - 180px) / 6);
+    margin: 15px;
+  }
 }
 
 .clients__link {
-  width: 170px;
+  min-width: 170px;
   height: 92px;
   border: 1px solid var(--color-icon-team);
   border-radius: 4px;
