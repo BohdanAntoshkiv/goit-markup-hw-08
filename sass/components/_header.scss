@@ -44,11 +44,11 @@
     display: flex;
     margin-left: 93px;
 
-    .navigation__link--active {
+    .navigation__item--active {
         color: var(--accent-color);
     }
 
-    .navigation__list + .navigation__list {
+    .navigation__item + .navigation__item {
         margin-left: 50px;
     }
 }
