@@ -271,6 +271,7 @@ img {
   border: 0;
   background-color: transparent;
   fill: var(--color-border-checkbox);
+  cursor: pointer;
   transition: color 250ms var(--timing-function);
 }
 .navigation-social__button:hover, .navigation-social__button:focus, .navigation-social__button:active {
