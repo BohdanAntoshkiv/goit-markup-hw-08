@@ -54,6 +54,20 @@ img {
   overflow: hidden;
 }
 
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .is-hidden--mob {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+}
+
 :root {
   --accent-color: #2196f3;
   --main-text-color: #212121;
@@ -235,10 +249,6 @@ img {
   }
 }
 
-.navigation-container.is-hidden {
-  display: none;
-}
-
 .open-button {
   margin-left: auto;
   background-color: #ffffff;
@@ -267,12 +277,20 @@ img {
     flex-direction: column;
     padding: 48px 40px;
     z-index: 10;
+    transform: translateX(0%);
+    transition: transform 250ms;
   }
 }
 @media screen and (min-width: 768px) {
   .navigation-container {
     display: flex;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 767.5px) {
+  .navigation-container.is-hidden--mob {
+    transform: translateX(100%);
   }
 }
 
@@ -371,6 +389,12 @@ img {
 @media screen and (max-width: 767.98px) {
   .contacts__icon {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts__icon {
+    margin-right: 10px;
+    fill: currentColor;
   }
 }
 
