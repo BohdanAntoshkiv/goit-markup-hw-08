@@ -64,7 +64,7 @@
 
 .footer-folow__input {
     padding: 15px 0px 15px 16px;
-    width: 358px;
+    width: 100%;
     background-color: transparent;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -85,6 +85,16 @@
         line-height: 1.25;
         letter-spacing: 0.03em;
         color: var(--color-text-input-footer);
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 450px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 358px;
+        margin-bottom: 0;
+        display: inline-block;
+        margin-right: 12px;
     }
 }
 
