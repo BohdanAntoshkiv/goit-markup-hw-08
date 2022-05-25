@@ -894,6 +894,12 @@ img {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-social {
+    margin-left: 70px;
+    margin-right: 0;
+  }
+}
 
 .footer-social__list {
   display: flex;
