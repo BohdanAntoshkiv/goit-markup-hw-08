@@ -821,7 +821,7 @@ img {
 }
 
 .clients__link {
-  min-width: 170px;
+  width: 100%;
   height: 92px;
   border: 1px solid var(--color-icon-team);
   border-radius: 4px;
