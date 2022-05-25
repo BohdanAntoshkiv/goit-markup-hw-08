@@ -174,25 +174,51 @@
                     <h2 class="servises__header">Чем мы занимаемся</h2>
                     <ul class="servises__list list">
                         <li class="servises__item">
-                            <img
-                                src="./image/box-1.jpg"
-                                alt="Мужчина работает за компютером"
-                                width="370"
-                                height="294"
-                            />
+                            <picture>
+                                <source
+                                    srcset="./image/box-1.jpg 1x, ./image/box-1-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <img
+                                    src="./image/box-1.jpg"
+                                    alt="Мужчина работает за компютером"
+                                    width="370"
+                                    height="294"
+                                />
+                            </picture>
                             <p class="servises__text">Десктопные приложения</p>
                         </li>
                         <li class="servises__item">
-                            <img
-                                src="./image/box-2.jpg"
-                                alt="Телефон и ноутбук"
-                                width="370"
-                                height="294"
-                            />
+                            <picture>
+                                <source
+                                    srcset="./image/box-2.jpg 1x, ./image/box-2-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <img
+                                    src="./image/box-2.jpg"
+                                    alt="Телефон и ноутбук"
+                                    width="370"
+                                    height="294"
+                                />
+                            </picture>
+
                             <p class="servises__text">Мобильные приложения</p>
                         </li>
                         <li class="servises__item">
-                            <img src="./image/box-3.jpg" alt="Планшет" width="370" height="294" />
+                            <picture>
+                                <source
+                                    srcset="./image/box-3.jpg 1x, 
+                                    ./image/box-3-2x.jpg 2x"
+                                    media="(min-width: 1200px)"
+                                />
+                                <img
+                                    src="./image/box-3.jpg"
+                                    alt="Планшет"
+                                    width="370"
+                                    height="294"
+                                />
+                            </picture>
+
                             <p class="servises__text">Дизайнерские решения</p>
                         </li>
                     </ul>
