@@ -49,7 +49,7 @@
     margin-right: auto;
     margin-top: 60px;
     @media screen and (min-width: 768px) {
-        margin-left: 70px;
+        margin: 0;
     }
 }
 
@@ -93,6 +93,12 @@
 
 .footer-folow {
     margin-top: 60px;
+
+    @media screen and (min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
     @media screen and (min-width: 1200px) {
         margin-left: auto;
         display: block;
@@ -141,8 +147,9 @@
     }
 
     @media screen and (min-width: 768px) {
-        max-width: 450px;
+        width: 450px;
     }
+
     @media screen and (min-width: 1200px) {
         max-width: 358px;
         margin-bottom: 0;
