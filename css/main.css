@@ -890,7 +890,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .footer-social {
-    margin-left: 70px;
+    margin-left: 0;
     margin-right: 0;
   }
 }
@@ -995,7 +995,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer-folow__input {
-    max-width: 358px;
+    width: 358px;
     margin-bottom: 0;
     display: inline-block;
     margin-right: 12px;
