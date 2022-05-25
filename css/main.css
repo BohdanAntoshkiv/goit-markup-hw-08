@@ -263,11 +263,12 @@ img {
 
 .open-button {
   margin-left: auto;
-  background-color: #ffffff;
+  background-color: var(--button-text-color);
   border: 0;
+  transition: color 250ms var(--timing-function);
 }
 .open-button:hover, .open-button:focus {
-  color: var(--hover-color-btn);
+  fill: var(--hover-color-btn);
 }
 @media screen and (min-width: 768px) {
   .open-button {
