@@ -51,6 +51,11 @@
     @media screen and (min-width: 768px) {
         margin: 0;
     }
+
+    @media screen and (min-width: 768px) {
+        margin-left: 70px;
+        margin-right: 0;
+    }
 }
 
 .footer-social__list {
@@ -101,7 +106,9 @@
     }
     @media screen and (min-width: 1200px) {
         margin-left: auto;
+        margin-right: 0;
         display: block;
+        margin-top: 0;
     }
 }
 
@@ -192,6 +199,7 @@
 
     @media screen and (min-width: 1200px) {
         margin-left: 12px;
+        margin-top: 0;
     }
 }
 
