@@ -176,11 +176,7 @@ img {
 
 .header {
   position: relative;
-}
-@media screen and (min-width: 767.98px) {
-  .header {
-    border-bottom: 1px solid var(--header-border-line);
-  }
+  border-bottom: 1px solid var(--header-border-line);
 }
 
 .navigation {
@@ -1402,6 +1398,7 @@ img {
   color: var(--portfolio-project-list-text-color);
   height: 100%;
   padding: 63px 24px;
+  overflow: scroll;
   transform: translateY(101%);
   transition: transform 250ms var(--timing-function);
 }
