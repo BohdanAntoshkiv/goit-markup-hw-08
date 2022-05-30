@@ -403,6 +403,12 @@ img {
     color: var(--second-text-color);
     transition: color 250ms var(--timing-function);
   }
+  .contacts__link--phone-number {
+    padding-bottom: 20px;
+  }
+  .contacts__link--mailmob {
+    padding-top: 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .contacts__link {
@@ -565,6 +571,11 @@ img {
 .features__list {
   margin-bottom: -30px;
 }
+@media screen and (max-width: 768px) {
+  .features__list {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 768px) {
   .features__list {
     display: flex;
@@ -605,8 +616,13 @@ img {
 
 .features__text {
   line-height: 1.7;
-  width: 270px;
+  min-width: 270px;
   color: var(--second-text-color);
+}
+@media screen and (min-width: 768px) {
+  .features__text {
+    width: 270px;
+  }
 }
 
 .servises {
@@ -701,8 +717,8 @@ img {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 767.5px) {
-  .team__item:not(:last-child) {
-    margin-bottom: 30px;
+  .team__item:last-child {
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 768px) {

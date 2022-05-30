@@ -64,7 +64,6 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
-        
 
         position: relative;
 
@@ -235,6 +234,13 @@
         color: var(--second-text-color);
 
         transition: color 250ms var(--timing-function);
+
+        &--phone-number {
+            padding-bottom: 20px;
+        }
+        &--mailmob {
+            padding-top: 20px;
+        }
     }
     @media screen and (min-width: 1200px) {
         font-size: 14px;
